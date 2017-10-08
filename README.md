@@ -1,5 +1,5 @@
 # meta commit contracts
-[![Gem Version](https://badge.fury.io/rb/meta_commit_contracts.svg)](https://badge.fury.io/rb/meta_commit)
+[![Gem Version](https://badge.fury.io/rb/meta_commit_contracts.svg)](https://badge.fury.io/rb/meta_commit_contracts)
 
 ## Description
 
