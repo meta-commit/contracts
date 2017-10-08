@@ -26,7 +26,7 @@ Contracts (and their responsibilities) :
 -   Locator
     -   locates exported classes of extension
 
-You can check documentation [here]()
+You can check documentation [here](http://www.rubydoc.info/gems/meta_commit_contracts)
 
 ##  Installation
  
