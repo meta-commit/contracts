@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Stanislav Dobrovolskiy"]
   spec.email         = ["uusername@protonmail.ch"]
 
-  spec.summary       = %q{Agreements for meta commit plugin}
+  spec.summary       = %q{Agreements for meta commit extension}
   spec.homepage      = "https://github.com/meta_commit/contracts"
   spec.license       = "MIT"
 
