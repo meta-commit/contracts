@@ -3,8 +3,7 @@
 
 ## Description
 
-gem includes agreements on data structures, which used by [meta commit gem](https://github.com/usernam3/meta_commit) to interact with extensions
-Contracts make extension development transparent and 
+gem includes agreements on data structures, which used by [meta commit gem](https://github.com/usernam3/meta_commit) to interact with extensions. 
 
 Contracts (and their responsibilities) :
 
