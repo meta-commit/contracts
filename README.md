@@ -1,5 +1,6 @@
 # meta commit contracts
 [![Gem Version](https://badge.fury.io/rb/meta_commit_contracts.svg)](https://badge.fury.io/rb/meta_commit_contracts)
+[![Build Status](https://travis-ci.org/meta-commit/contracts.svg?branch=master)](https://travis-ci.org/meta-commit/contracts)
 
 ## Description
 
