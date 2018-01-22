@@ -23,6 +23,9 @@ Contracts (and their responsibilities) :
 -   Diff
     -   builds human-readable message of change 
     -   knows what changes it can be used for 
+-   ChangeContext
+    -   stores information about currently examined changes (line, commit id, file name, touched ast)
+    -   passed to diff as source of examined changes
 -   Locator
     -   locates exported classes of extension
 
