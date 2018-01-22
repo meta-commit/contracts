@@ -5,6 +5,7 @@ end
 
 require "meta_commit_contracts/version"
 require "meta_commit_contracts/ast"
+require "meta_commit_contracts/change_context"
 require "meta_commit_contracts/contextual_ast"
 require "meta_commit_contracts/diff"
 require "meta_commit_contracts/errors"
