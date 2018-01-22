@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["uusername@protonmail.ch"]
 
   spec.summary       = %q{Agreements for meta commit extension}
-  spec.homepage      = "https://github.com/meta_commit/contracts"
+  spec.homepage      = "https://github.com/meta-commit/contracts"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }

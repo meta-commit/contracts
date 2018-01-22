@@ -1,6 +1,9 @@
 module MetaCommit::Contracts
   # Diff contains data from changed element and is responsible for printing structured, user friendly message about change
+  # @attr [MetaCommit::Contracts::ChangeContext] change_context
   class Diff
+
+    attr_accessor :change_context
 
     TYPE_ADDITION = :addition
     TYPE_DELETION = :deletion
@@ -14,13 +17,9 @@ module MetaCommit::Contracts
 
     end
 
-    # @param [Symbol] type
-    # @param [String] old_file_name
-    # @param [String] new_file_name
-    # @param [] old_ast_path
-    # @param [] new_ast_path
+    # @param [MetaCommit::Contracts::ChangeContext] context
     # @return [Boolean]
-    def supports_change(type, old_file_name, new_file_name, old_ast_path, new_ast_path)
+    def supports_change(context)
 
     end
 
