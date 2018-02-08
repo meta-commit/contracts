@@ -2,6 +2,7 @@ require 'spec_helper'
 
 describe MetaCommit::Contracts::ChangeContext do
   it { is_expected.to have_attr_accessor(:type) }
+  it { is_expected.to have_attr_accessor(:column) }
   it { is_expected.to have_attr_accessor(:old_lineno) }
   it { is_expected.to have_attr_accessor(:new_lineno) }
   it { is_expected.to have_attr_accessor(:commit_id_old) }
