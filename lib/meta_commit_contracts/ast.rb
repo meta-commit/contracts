@@ -9,13 +9,23 @@ module MetaCommit::Contracts
 
     end
 
-    # @return [Integer, nil] line number where ast starts
+    # @return [Integer, nil] line number where ast starts (starting from 1)
     def first_line
 
     end
 
-    # @return [Integer, nil] line number where ast ends
+    # @return [Integer, nil] line number where ast ends (starting from 1)
     def last_line
+
+    end
+
+    # @return [Integer, nil] column where ast starts (starting from 0)
+    def first_column
+
+    end
+
+    # @return [Integer, nil] column where ast ends (starting from 0)
+    def last_column
 
     end
   end

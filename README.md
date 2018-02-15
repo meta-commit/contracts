@@ -13,6 +13,7 @@ Contracts (and their responsibilities) :
     -   stores abstract syntax tree
     -   provides access to children nodes
     -   provides access to first line number and last line number
+    -   provides access to first column number and last column number
 -   Parser
     -   builds ast node from code string
     -   knows about file extensions he supports

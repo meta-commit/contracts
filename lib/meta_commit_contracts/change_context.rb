@@ -4,7 +4,6 @@ module MetaCommit::Contracts
   # @attr [String] old_lineno line number in the old file
   # @attr [String] new_lineno line number in the new file
   # @attr [Numeric, Nil] column position of the first character in the new line that is different from character at the same position in the old line (it has meaning only when type == :replace)
-  # @attr [Numeric, Nil] column the position (with value >= 1) from which the values differ (it has meaning only when type == :replace)
   # @attr [String] commit_id_old hash of the old commit
   # @attr [String] commit_id_new hash of the new commit
   # @attr [MetaCommit::Contracts::ContextualAst] old_contextual_ast stores ast and context from the old file
